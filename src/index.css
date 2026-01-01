@@ -1,0 +1,14 @@
+.welcome{
+    font-size: 2.5rem;
+    background-color: rgb(61, 240, 61);
+    color: #f9f7f7;
+    border-radius: 5px;
+    margin: 0;
+}
+.notwel{
+    font-size: 2.5rem;
+    background-color: rgb(255, 0, 0);
+    color: #f9f7f7;
+    border-radius: 5px;
+    margin: 0;
+}
