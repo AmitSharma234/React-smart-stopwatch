@@ -38,7 +38,7 @@ function TodoList() {
     if (index < task.length - 1) {                  
       const updatedTask = [...task];
       [updatedTask[index], updatedTask[index + 1]] =
-      [updatedTask[index + 1], updatedTask[index]];
+      [updatedTask[index - 1], updatedTask[index]];
       setTasks(updatedTask);
     }
   }
