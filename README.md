@@ -14,3 +14,49 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+# ⏱ React Smart Stopwatch
+
+A future-ready stopwatch application built with **React + Vite**, showcasing modern React hooks, clean interval management, and a polished UI.  
+This project is suitable for **learning hooks**, **interview preparation**, and **portfolio demonstration**.
+
+---
+
+## 🚀 Features
+
+- ⏱ Real-time stopwatch functionality
+- ▶️ Start, ⏸ Pause, 🔄 Reset controls
+- 🧠 Proper use of `useState`, `useRef`, and `useEffect`
+- 🛡 Prevents multiple intervals & memory leaks
+- 🎨 Modern, dark-themed UI
+- ⚡ Fast development with Vite + HMR
+
+---
+
+## 🛠 Tech Stack
+
+- **React** (Functional Components & Hooks)
+- **Vite** (Fast build tool)
+- **JavaScript (ES6+)**
+- **Inline Styling / Modern UI patterns**
+
+---
+
+## 🧩 Core React Concepts Used
+
+- `useState` – for UI state updates  
+- `useRef` – for storing interval IDs without re-rendering  
+- `useEffect` – for cleanup and lifecycle safety  
+- Functional state updates (`prev => prev + 1`)
+
+---
+
+## 📂 Project Structure
+react-smart-stopwatch/
+├─ src/
+│ ├─ App.jsx # Stopwatch component
+│ ├─ main.jsx
+│ └─ index.css
+├─ public/
+├─ package.json
+└─ README.md
