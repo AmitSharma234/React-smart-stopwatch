@@ -53,14 +53,17 @@ This project is suitable for **learning hooks**, **interview preparation**, and 
 
 ## Project Structure
 
-src/
-  components/
-    TodoInput.jsx
-    TodoList.jsx
-    TodoItem.jsx
-  App.jsx
-  main.jsx
-index.html
-README.md
+react-todo-app/
+├─ src/
+│  ├─ components/
+│  │  ├─ TodoInput.jsx
+│  │  ├─ TodoList.jsx
+│  │  └─ TodoItem.jsx
+│  ├─ App.jsx
+│  ├─ main.jsx
+│  └─ index.css
+├─ public/
+├─ package.json
+└─ README.md
 
 ---
