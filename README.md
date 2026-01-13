@@ -52,11 +52,18 @@ This project is suitable for **learning hooks**, **interview preparation**, and 
 ---
 
 ## 📂 Project Structure
-react-smart-stopwatch/
+
+react-todo-app/
 ├─ src/
-│ ├─ App.jsx 
-│ ├─ main.jsx
-│ └─ index.css
+│  ├─ components/
+│  │  ├─ TodoInput.jsx
+│  │  ├─ TodoList.jsx
+│  │  └─ TodoItem.jsx
+│  ├─ App.jsx
+│  ├─ main.jsx
+│  └─ index.css
 ├─ public/
 ├─ package.json
 └─ README.md
+
+---
