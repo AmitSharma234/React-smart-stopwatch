@@ -55,15 +55,29 @@ This project is suitable for **learning hooks**, **interview preparation**, and 
 
 react-todo-app/
 ├─ src/
+│  ├─ assets/                # images, icons, fonts (optional)
 │  ├─ components/
 │  │  ├─ TodoInput.jsx
 │  │  ├─ TodoList.jsx
 │  │  └─ TodoItem.jsx
+│  ├─ hooks/                 # custom hooks (e.g. useTodos.jsx) optional
+│  ├─ context/               # React context providers (optional)
+│  ├─ styles/                # CSS modules or global styles
+│  │  ├─ index.css
+│  │  └─ components.css
+│  ├─ utils/                 # helper functions (e.g. storage utils)
 │  ├─ App.jsx
 │  ├─ main.jsx
-│  └─ index.css
+│  └─ router.jsx             # if using React Router (optional)
+│
 ├─ public/
+│  ├─ vite.svg / favicon.ico
+│  └─ index.html
+│
+├─ .gitignore
 ├─ package.json
-└─ README.md
+├─ LICENSE                   # MIT or similar for open-source (recommended)
+├─ README.md                 # project usage, setup, demo instructions
+└─ .env.example              # sample environment variables (optional)
 
 ---
