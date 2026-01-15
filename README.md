@@ -47,7 +47,7 @@ This project is suitable for **learning hooks**, **interview preparation**, and 
 - `useState` – for UI state updates  
 - `useRef` – for storing interval IDs without re-rendering  
 - `useEffect` – for cleanup and lifecycle safety  
-- Functional state updates (`prev => prev + 1`)
+- Functional state updates (`pre => pre + 1`)
 
 ---
 
