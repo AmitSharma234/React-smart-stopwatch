@@ -18,7 +18,7 @@ If you are developing a production application, we recommend using TypeScript wi
 # ⏱ React Smart Stopwatch
 
 A future-ready stopwatch application built with **React + Vite**, showcasing modern React hooks, clean interval management, and a polished UI.  
-This project is suitable for **learning hooks**, **interview **, and **portfolio demonstration**.
+This project is suitable for **learning hooks**, **interview preparation**, and **portfolio demonstration**.
 
 ---
 
