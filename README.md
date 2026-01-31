@@ -65,7 +65,7 @@ react-todo-app/
 │  ├─ styles/                # CSS modules or global styles
 │  │  ├─ index.css
 │  │  └─ components.css
-│  ├─ utils/                 # helper functions (e.g. storage utils)
+│  ├─ utils/                 
 │  ├─ App.jsx
 │  ├─ main.jsx
 │  └─ router.jsx             
