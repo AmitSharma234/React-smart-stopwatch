@@ -61,7 +61,7 @@ react-todo-app/
 │  │  ├─ TodoList.jsx
 │  │  └─ TodoItem.jsx
 │  ├─ hooks/                 # custom hooks (e.g. useTodos.jsx) optional
-│  ├─ context/               # React context providers (optional)
+│  ├─ context/               # React context providers
 │  ├─ styles/                
 │  │  ├─ index.css
 │  │  └─ components.css
